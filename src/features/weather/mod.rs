@@ -1,3 +1,4 @@
 pub mod weather_controller;
-mod weather_service;
-mod weather_result;
+pub mod weather_service;
+pub mod weather_result;
+mod something;

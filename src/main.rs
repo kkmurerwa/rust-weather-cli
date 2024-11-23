@@ -1,5 +1,5 @@
 mod features;
 
 fn main() {
-    println!("Hello, world!");
+    weather_cli::run();
 }

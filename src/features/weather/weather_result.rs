@@ -1,17 +1,8 @@
-pub(crate) struct WeatherResult {
-    temperature: String,
-    feels_like: String,
-    humidity: String,
-    wind_speed: String,
-}
-
-impl WeatherResult {
-    pub(crate) fn new(temperature: String, feels_like: String, humidity: String, wind_speed: String) -> WeatherResult {
-        WeatherResult {
-            temperature,
-            feels_like,
-            humidity,
-            wind_speed,
-        }
-    }
+#[derive(Debug)]
+pub struct WeatherResult {
+    pub(crate) city_name: String,
+    pub(crate) temperature: String,
+    pub(crate) feels_like: String,
+    pub(crate) humidity: String,
+    pub(crate) wind_speed: String,
 }
